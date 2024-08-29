@@ -1,0 +1,33 @@
+{
+    "name": "Rewards list",
+    "list": [
+      {
+        "token_address": "",
+        "swap_address": "source1wkwy0xh89ksdgj9hr347dyd2dw7zesmtrue6kfzyml4vdtz6e5wse90k74",
+        "rewards_tokens": [
+          {
+            "rewards_address": "source1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsrdp08s",
+            "token_address": "",
+            "swap_address": "source1wkwy0xh89ksdgj9hr347dyd2dw7zesmtrue6kfzyml4vdtz6e5wse90k74",
+            "symbol": "SOURCE",
+            "name": "Source",
+            "logoURI": "https://raw.githubusercontent.com/Source-Protocol-Cosmos/sourceswap-asset-list/main/images/source.png",
+            "native": true,
+            "denom": "usource",
+            "decimals": 6
+          },
+          {
+            "rewards_address": "source1j08452mqwadp8xu25kn9rleyl2gufgfjnv0sn8dvynynakkjukcqse69rc",
+            "token_address": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+            "swap_address": "source1wkwy0xh89ksdgj9hr347dyd2dw7zesmtrue6kfzyml4vdtz6e5wse90k74",
+            "symbol": "USDC.axl",
+            "name": "USDC.axl",
+            "logoURI": "https://raw.githubusercontent.com/Source-Protocol-Cosmos/sourceswap-asset-list/main/images/usdc.png",
+            "native": false,
+            "denom": "uusdc",
+            "decimals": 6
+          }
+        ]
+      }
+    ]
+  }

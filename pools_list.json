@@ -1,0 +1,87 @@
+{
+   "name": "Source Token List",
+   "logoURI": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/29231450/Poodle-Standard-Gray-On-White-Standing.jpg",
+   "keywords": ["special tokens"],
+   "tags": {
+     "ProjectName": {
+       "name": "Source",
+       "description": "Tokens that are listed on Source"
+     }
+   },
+   "timestamp": "2024-07-26T00:00:00+00:00",
+   "base_token": {
+     "id": "source-protocol",
+     "chain_id": "source-1",
+     "token_address": "",
+     "symbol": "SOURCE",
+     "name": "Source",
+     "decimals": 6,
+     "logoURI": "https://cryptologos.cc/logos/anyswap-any-logo.svg?v=022",
+     "tags": ["native"],
+     "native": true,
+     "denom": "usource"
+   },
+   "pools": [
+     
+     {
+       "pool_id": "SOURCE-USDC.axl",
+       "pool_assets": [
+         {
+           "id": "source",
+           "chain_id": "source-1",
+           "token_address": "",
+           "symbol": "SOURCE",
+           "name": "Source",
+           "decimals": 6,
+           "logoURI": "https://avatars.githubusercontent.com/u/96547185?v=4",
+           "tags": ["native"],
+           "native": true,
+           "denom": "usource"
+         },
+         {
+           "id": "axelar-bridged-usdc-cosmos",
+           "chain_id": "source-1",
+           "token_address": "",
+           "symbol": "USDC.axl",
+           "name": "USD Coin (Axelar)",
+           "decimals": 6,
+           "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+           "tags": ["native"],
+           "native": true,
+           "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4"
+         }
+       ],
+       "swap_address": "source1wkwy0xh89ksdgj9hr347dyd2dw7zesmtrue6kfzyml4vdtz6e5wse90k74",
+       "staking_address": "source1unyuj8qnmygvzuex3dwmg9yzt9alhvyeat0uu0jedg2wj33efl5ql7j09g",
+       "rewards_tokens": [
+         {
+           "rewards_address": "source1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsrdp08s",
+           "token_address": "",
+           "swap_address": "",
+           "symbol": "SOURCE",
+           "name": "Source",
+           "logoURI": "https://avatars.githubusercontent.com/u/96547185?v=4",
+           "native": true,
+           "denom": "usource",
+           "decimals": 6
+         },
+         {
+           "rewards_address": "source1j08452mqwadp8xu25kn9rleyl2gufgfjnv0sn8dvynynakkjukcqse69rc",
+           "token_address": "",
+           "swap_address": "",
+           "symbol": "USDC.axl",
+           "name": "USD Coin (Axelar)",
+           "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/usdc.png",
+           "native": true,
+           "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+           "decimals": 6
+         }
+       ]
+     }
+   ],
+   "version": {
+     "major": 0,
+     "minor": 1,
+     "patch": 0
+   }
+ }

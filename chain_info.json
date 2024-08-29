@@ -1,0 +1,45 @@
+{
+  "chainId": "source-1",
+  "chainName": "Source Mainnet",
+  "rpc": "https://mainnet.sourceprotocol.io:26658",
+  "rest": "https://mainnet.sourceprotocol.io:1318",
+  "stakeCurrency": {
+    "coinDenom": "SOURCE",
+    "coinMinimalDenom": "usource",
+    "coinDecimals": 6
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "source",
+    "bech32PrefixAccPub": "sourcepub",
+    "bech32PrefixValAddr": "sourcevaloper",
+    "bech32PrefixValPub": "sourcevaloperpub",
+    "bech32PrefixConsAddr": "sourcevalcons",
+    "bech32PrefixConsPub": "sourcevalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "SOURCE",
+      "coinMinimalDenom": "usource",
+      "coinDecimals": 6,
+      "coinGeckoId": "source"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SOURCE",
+      "coinMinimalDenom": "usource",
+      "coinDecimals": 6,
+      "coinGeckoId": "source"
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.05,
+    "high": 0.1
+  },
+  "features": ["cosmwasm", "stargate", "ibc-transfer"]
+}
